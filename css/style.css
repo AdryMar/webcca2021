@@ -11,7 +11,7 @@
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 800;
-    margin-right: 45px;   
+    margin-right: 45px;
 }
 .navbar a:hover{
     background-color: #B3272D;
@@ -38,7 +38,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    padding: 23px 0px 81px 0px;
 }
 .bannerLogo{
     width: 536px;
