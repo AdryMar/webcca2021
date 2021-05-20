@@ -11,7 +11,7 @@
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 800;
-    margin-right: 45px;   
+    margin-right: 45px;
 }
 .navbar a:hover{
     background-color: #B3272D;
@@ -38,7 +38,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    padding: 23px 0px 81px 0px;
 }
 .bannerLogo{
     width: 536px;
@@ -59,4 +59,48 @@
 .iconosredes{
     width: 50%;
     margin: auto;
+}
+/*DISEÑO DEL FOOTER */
+footer{
+    position: relative;
+    background-image: url('../img/Footer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 56px 0px;
+   
+}
+footer img{
+    position: absolute;
+    width: 339px;
+    height: 316px;
+    right: 170px;
+    top: -1px;
+}
+@media (max-width: 1303px){
+    footer img{
+        display: none;
+    }
+}
+footer h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:0px 0px 56px 0px;
+}
+footer h4{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.gmail{
+    padding: 26px 0px;
 }
