@@ -1,7 +1,115 @@
+<<<<<<< HEAD
 .navbar{
   background: 262967;
 }
 .logo-nav{
   height: 62px;
   width: 105px;
+=======
+.container-fluid{
+    width: 96%;
+    margin: auto;
+}
+/* ESTILO DE MENU DE NAVEGACION */
+.navbar{
+    background-color: #262967;
+    padding: 0px;
+}
+.navbar li a{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 800;
+    margin-right: 45px;
+}
+.navbar a:hover{
+    background-color: #B3272D;
+    color: #FFFFFF;
+}
+.imgicono{
+    width: 60px;
+    margin-right: 218px;
+}
+.navbar-toggler-icon{
+    background-image: url('../img/Vector@2x.png');
+}
+.dropdown-menu{
+    background: #B3272D;
+    opacity: 0.8;
+}
+.dropdown-item{
+    border-bottom: 1px solid white;
+}
+/* DISENO DEL BANNER */
+
+#banner{
+    background-image: url('../img/1Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 23px 0px 81px 0px;
+}
+.bannerLogo{
+    width: 536px;
+    height: 316.23px;
+}
+#banner h1{
+    width: 813px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #272A67;
+    margin: 77px 0px;
+}
+.iconosredes{
+    width: 50%;
+    margin: auto;
+}
+/*DISEÑO DEL FOOTER */
+footer{
+    position: relative;
+    background-image: url('../img/Footer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 56px 0px;
+
+}
+footer img{
+    position: absolute;
+    width: 339px;
+    height: 316px;
+    right: 170px;
+    top: -1px;
+}
+@media (max-width: 1303px){
+    footer img{
+        display: none;
+    }
+}
+footer h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:0px 0px 56px 0px;
+}
+footer h4{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.gmail{
+    padding: 26px 0px;
+>>>>>>> cc206e5e617fa63dd68ac9c5e1ded457997b5f9b
 }
