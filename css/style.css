@@ -43,15 +43,14 @@ $grid-breakpoints{
 /* DISENO DEL BANNER */
 
 #banner{
-  background-image: url('../img/31.jpg');
-  opacity: 85%;
+  background-image: url('../img/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding: 23px 0px 81px 0px;
 }
 .bannerLogo{
-  margin-top: 25%;
+  margin-top: 175px;
   width: 385px;
   height: 225px;
 }
@@ -66,10 +65,20 @@ $grid-breakpoints{
   text-transform: uppercase;
   color: #ffffff;
   margin: 77px 0px;
+  margin-top: 15px;
 }
 .iconosredes{
   width: 50%;
   margin: auto;
+}
+
+/*ANUNCIOS*/
+.anuncios{
+  background-image: url(../img/graduación.png);
+  background-color: #000000;
+  opacity: 80%;
+  height: 793px;
+
 }
 /*DISEÑO DEL FOOTER */
 footer{
